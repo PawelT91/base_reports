@@ -27,4 +27,6 @@ RUN apk update \
     && pip3 install XlsxWriter \
     && pip3 install xmltodict \
     && pip3 install sklearn \
-    && pip3 install matplotlib
+    && pip3 install matplotlib \
+    && pip3 install requests \
+    && pip3 install pybars3
